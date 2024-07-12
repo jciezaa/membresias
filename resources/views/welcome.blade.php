@@ -34,80 +34,56 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                  <li class="nav-item dropdown" data-bs-theme="light">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="themes">Themes</a>
-                    <div class="dropdown-menu" aria-labelledby="themes">
-                      <a class="dropdown-item" href="../default/">Default</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="../cerulean/">Cerulean</a>
-                      <a class="dropdown-item" href="../cosmo/">Cosmo</a>
-                      <a class="dropdown-item" href="../cyborg/">Cyborg</a>
-                      <a class="dropdown-item" href="../darkly/">Darkly</a>
-                      <a class="dropdown-item" href="../flatly/">Flatly</a>
-
-                    </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about">Acerca de</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../help/">Help</a>
+                    <a class="nav-link" href="company-registration">Inscripción</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://blog.bootswatch.com/">Blog</a>
+                    <a class="nav-link" href="pay">Pagos</a>
                   </li>
                   <li class="nav-item dropdown" data-bs-theme="light">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="download">Sketchy</a>
-                    <div class="dropdown-menu" aria-labelledby="download">
-                      <a class="dropdown-item" rel="noopener" target="_blank" href="https://jsfiddle.net/bootswatch/qmLdbwyk/">Open in JSFiddle</a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="manual">Manual de usuario</a>
+                    <div class="dropdown-menu" aria-labelledby="manual">
+                      <a class="dropdown-item" rel="noopener" target="_blank" href="https://jsfiddle.net/bootswatch/qmLdbwyk/">Instalación</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="../5/sketchy/bootstrap.css" download>bootstrap.css</a>
-                      <a class="dropdown-item" href="../5/sketchy/bootstrap.min.css" download>bootstrap.min.css</a>
+                      <a class="dropdown-item" href="../5/sketchy/bootstrap.css" manual>Uso de plataforma</a>
+                      <a class="dropdown-item" href="../5/sketchy/bootstrap.min.css" manual>Impresión de boletas</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="../5/sketchy/bootstrap.min.css" manual>Pagos</a>
                     </div>
                   </li>
                 </ul>
                 <ul class="navbar-nav ms-md-auto">
                   <li class="nav-item">
-                    <a target="_blank" rel="noopener" class="nav-link" href="https://github.com/thomaspark/bootswatch/"><i class="bi bi-github"></i><span class="d-lg-none ms-2">GitHub</span></a>
+                    <a target="_blank" rel="noopener" class="nav-link" href=""><i class="bi bi-instagram"></i><span class="d-lg-none ms-2">Instagram</span></a>
                   </li>
                   <li class="nav-item">
-                    <a target="_blank" rel="noopener" class="nav-link" href="https://twitter.com/bootswatch"><i class="bi bi-twitter"></i><span class="d-lg-none ms-2">Twitter</span></a>
+                    <a target="_blank" rel="noopener" class="nav-link" href=""><i class="bi bi-facebook"></i><span class="d-lg-none ms-2">Facebook</span></a>
                   </li>
+                  <li class="nav-item">
+                    <a target="_blank" rel="noopener" class="nav-link" href=""><i class="bi bi-twitter"></i><span class="d-lg-none ms-2">Twitter</span></a>
+                  </li>
+                  
+                  {{-- Separador Flex --}}
                   <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
                     <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
                     <hr class="d-lg-none my-2 text-white-50">
                   </li>
+
                   <li class="nav-item dropdown" data-bs-theme="light">
                     <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="version-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme">
-                      <span class="d-lg-none me-2">Bootstrap </span>
-                      <span>v5.3</span>
+                      <span class="d-lg-none me-2">NC1EZA </span>
+                      <span>C1EZAA</span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
                       <li>
                         <a href="https://bootswatch.com/" class="dropdown-item d-flex align-items-center justify-content-between" aria-current="true">
-                          <span class="ms-2">v5.3.x</span><i class="bi bi-check"></i>
+                          <span class="ms-2">C1EZAA</span><i class="bi bi-check"></i>
                         </a>
                       </li>
-                      <li>
-                        <a href="https://bootswatch.com/4/" class="dropdown-item d-flex align-items-center justify-content-between">
-                          <span class="ms-2">v4.6.2</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://bootswatch.com/3/" class="dropdown-item d-flex align-items-center justify-content-between">
-                          <span class="ms-2">v3.4.1</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://bootswatch.com/2/" class="dropdown-item d-flex align-items-center justify-content-between">
-                          <span class="ms-2">v2.3.2</span>
-                        </a>
-                      </li>
-                      <li>
-                        <hr class="dropdown-divider">
-                      </li>
-                      <li>
-                        <a href="https://github.com/thomaspark/bootswatch/tags" class="dropdown-item d-flex align-items-center justify-content-between">
-                          <span class="ms-2">All versions</span>
-                        </a>
-                      </li>
+
                     </ul>
                   </li>
                   <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
@@ -116,18 +92,18 @@
                   </li>
                   <li class="nav-item dropdown" data-bs-theme="light">
                     <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme">
-                      <i class="bi bi-circle-half"></i>
-                      <span class="d-lg-none ms-2">Toggle theme</span>
+                      <i class="bi bi-circle-half">&nbsp Iniciar Sesión</i>
+                      <span class="d-lg-none ms-2">  Toggle theme</span>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
                       <li>
-                        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-                          <i class="bi bi-sun-fill"></i><span class="ms-2">Light</span>
+                        <button type="button" class="dropdown-item d-flex align-items-center" aria-pressed="false">
+                          <a  href="/login"> <i class="bi bi-box-arrow-in-right"></i><span class="ms-2">&nbsp Login</span> </a>
                         </button>
                       </li>
                       <li>
-                        <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="true">
-                          <i class="bi bi-moon-stars-fill"></i><span class="ms-2">Dark</span>
+                        <button type="button" class="dropdown-item d-flex align-items-center" aria-pressed="true">
+                          <a  href="/register"> <i class="bi bi-door-open"></i><span class="ms-2">&nbsp Registro</span></a>
                         </button>
                       </li>
                     </ul>
@@ -137,21 +113,23 @@
             </div>
           </div>
       
-          <div class="container">
+  <div class="container">
+
             <div class="page-header" id="banner">
               <div class="row">
                 <div class="col-lg-8 col-md-7 col-sm-6">
                   <h1>Sistema de pagos</h1>
                   <p class="lead">Bienvenidos al sistema de pagos para membresias, mantenimientos, cuotas, etc.</p>
+                </br></br>
                 </div>
                 <div class="col-lg-4 col-md-5 col-sm-6">
-                  <div class="sponsor">
-                    
+                  <div class="sponsor">  
                   </div>
                 </div>
               </div>
             </div>
-    
+
+            @yield('content')
             
     <footer id="footer">
         <div class="row">
@@ -165,8 +143,8 @@
                 <li><a href="../help/#api">API</a></li>
                 <li><a href="../help/#donate">Donate</a></li>
               </ul>
-              <p>Made by <a href="https://thomaspark.co/">Thomas Park</a>.</p>
-              <p>Code released under the <a href="https://github.com/thomaspark/bootswatch/blob/master/LICENSE">MIT License</a>.</p>
+              <p>Theme made by <a href="https://thomaspark.co/">Thomas Park</a></p>
+              <p>Powered by <a href="https://github.com/thomaspark/bootswatch/blob/master/LICENSE">CIEZA CORPORATE</a></p>
               <p>Based on <a href="https://getbootstrap.com/" rel="nofollow">Bootstrap</a>. Icons from <a href="https://icons.getbootstrap.com/" rel="nofollow">Bootstrap Icons</a>. Web fonts from <a href="https://fonts.google.com/" rel="nofollow">Google</a>.</p>
   
             </div>

@@ -1,4 +1,7 @@
-<x-guest-layout>
+
+@extends('welcome')
+@section('content')
+
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
@@ -39,9 +42,9 @@
                 </a>
             @endif
 
-            <x-primary-button class="ms-3">
+            <button  class="btn btn-primary">
                 {{ __('Log in') }}
-            </x-primary-button>
+            </button>
         </div>
     </form>
-</x-guest-layout>
+@endsection
